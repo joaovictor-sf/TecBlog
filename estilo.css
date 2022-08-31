@@ -1,0 +1,136 @@
+body{
+    background-color: aliceblue;
+    background-size: 10em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*
+Layaout
+*/
+#top{
+    background-color: #ffbb00;
+    text-align: center;
+    padding: 15px;
+}
+
+#logo{
+    margin-bottom: 15px;
+}
+
+#logo, menu{
+    padding: 10px;
+    font-size: 20px;
+}
+
+#principal{
+    width: 80%;
+    margin: auto;
+}
+
+#area-noticias{
+    width: 68%;
+    float: left;
+}
+
+#lateral-right{
+    width: 30%;
+    float: right;
+    margin-top: 10px;
+}
+
+#rodape{
+    background-color: gainsboro;
+    text-align: center;
+    padding: 20px;
+}
+
+.noticia{
+    background-color: white;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.informacao-lateral{
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+/*
+Menu
+*/
+#principal a:link, #principal a:visited{
+    font-size: 15px;
+    color: #ffbb00;
+}
+
+#principal a:hover{
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+}
+
+#menu a:link, #menu a:visited{
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#menu a:hover{
+    color: #ffbb00;
+    background-color: white;
+}
+
+/*
+Formadação em geral
+*/
+h1{
+    padding-top: 10px;
+    color: #201f1f;
+}
+
+h2{
+    color: #ffbb00;
+}
+
+h3{
+    background-color: gainsboro;
+    color: #252424;
+    font-size: 1.5em;
+    padding: 3px;
+}
+
+hr{
+    margin: 10px 0;
+}
+
+ul{
+    list-style: none;
+}
+
+.branco{
+    color: white;
+}
+
+.clear{
+    clear: both;
+}
+
+.data-publicacao{
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.imagem1{
+    width: 100%;
+}
